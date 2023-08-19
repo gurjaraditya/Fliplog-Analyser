@@ -1,8 +1,67 @@
 
-#
-.idea
-.vscode
-.env
-temp.txt
-/venv
-__pycache__
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+env/
+*.venv/
+
+# Log files
+*.log
+
+# User-specific and sensitive files
+*.secret
+*.key
+*.pem
+
+# Compiled executables and binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Streamlit cache
+.streamlit/
+
+# Python environment files
+requirements.txt
+*.env
+
+# Data and output directories
+data/
+output/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled C++ files
+*.out
+*.o
+
+# Ignore Hugging Face model downloads
+.hf/
+
+# Ignore generated files and directories
+__generated__/
+__pycache__/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore config files with sensitive information
+config.ini
+config.yml
+
+# Ignore backup and temporary files
+*.bak
+*.backup
+*.swp
+*.swo
